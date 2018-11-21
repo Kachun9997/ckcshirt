@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.cover {
+  /* The image used */
+  background-image: url('https://static1.squarespace.com/static/53cbc77ce4b0f4361f8a7fbd/t/56ddb7a745bf214a0b442cd5/1457371067814/Weekend+Style+%7C+My+5+minimal+monochrome+wardrobe+essentials');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #474545;
+  background-blend-mode: overlay;
+
+  opacity: 0.85;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
